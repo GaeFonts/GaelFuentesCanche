@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(imagenes/fondoportada.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 1000px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #ff4f10;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+
+th .logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+.student-info {
+    text-align: center;
+}
+
+.student-info img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+ a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #ff4f10;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons a:hover {
+    background-color: #310c02;
+}
